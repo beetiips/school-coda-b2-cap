@@ -33,8 +33,8 @@ curl http://localhost:4010/stations
 Ajoutez un en-tête `Authorization` et elle répond :
 
 ```bash
-curl -H 'Authorization: Bearer demo-token' http://localhost:4010/stations
-# -> 200, la liste des gares
+`curl -H 'Authorization: Bearer demo-token' http://localhost:4010/stations
+`# -> 200, la liste des gares
 ```
 
 Le mock ne vérifie pas la *valeur* du jeton, seulement sa **présence** — n'importe quelle

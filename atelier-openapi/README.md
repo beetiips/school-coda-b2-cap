@@ -83,3 +83,11 @@ Vous pouvez importer `openapi.yaml` dans Bruno pour générer votre collection :
 requêtes viennent de votre propre contrat.
 
 N'écrivez pas les douze opérations avant de tester la première.
+
+## Usage de l'IA
+
+Gemini a été utilisé afin d'avoir la syntaxe pour les request body, 
+de savoir si je pouvais utiliser des enums et pour un blocage au moment 
+du lancement Docker (pour changer). Je l'ai fait repasser sur la page afin
+de vérifier s'il n'y avait pas des erreurs d'oubli à cause des copiés-collés
+lors de la réalisation des schemas et endpoints.
